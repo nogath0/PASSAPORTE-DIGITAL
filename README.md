@@ -1,4 +1,4 @@
-<img width="425" height="400" alt="Design sem nome" src="https://github.com/user-attachments/assets/726b82a8-dd77-44a8-bbc6-7c8f7855836c" />
+<img width="340" height="320" alt="logo-passaporte-digital" src="https://github.com/user-attachments/assets/507ccd53-9391-4f0e-a6e5-d1aef037d305" />
 
 # PASSAPORTE-DIGITAL
 
