@@ -4,7 +4,6 @@ package Projeto.Passaporte.digital.Usuario;
 import Projeto.Passaporte.digital.Entity.Perfil;
 import Projeto.Passaporte.digital.Execption.EmailJaCadastradoException;
 import Projeto.Passaporte.digital.Repository.PerfilRepository;
-import Projeto.Passaporte.digital.Repository.UsuarioRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +11,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @Service
-public class UsuarioService {
+public class UsuarioService implements UsuarioContrato{
     private final UsuarioRepository usuarioRepository;
     private final PerfilRepository perfilRepository;
     private final UsuarioMapper usuarioMapper;
@@ -47,6 +46,7 @@ public class UsuarioService {
      *
      * @return lista com os dados dos usuários cadastrados
      */
+    @Override
     public List<UsuarioResponse> findAll() {
 
         return usuarioRepository.findAll().stream()
@@ -60,6 +60,7 @@ public class UsuarioService {
      * @param id identificador do usuário
      * @return dados do usuário encontrado
      */
+    @Override
     public UsuarioResponse findById(Long id) {
 
         Usuario usuario = usuarioRepository.findById(id)

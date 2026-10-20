@@ -1,7 +1,6 @@
 package Projeto.Passaporte.digital.Entity;
 
 
-import Projeto.Passaporte.digital.Usuario.Solicitacao;
 import Projeto.Passaporte.digital.Usuario.Usuario;
 import jakarta.persistence.*;
 import lombok.Getter;

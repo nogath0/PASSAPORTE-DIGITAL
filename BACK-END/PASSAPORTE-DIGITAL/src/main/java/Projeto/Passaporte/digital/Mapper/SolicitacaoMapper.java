@@ -1,7 +1,7 @@
 package Projeto.Passaporte.digital.Mapper;
 
 import Projeto.Passaporte.digital.Entity.Maquina;
-import Projeto.Passaporte.digital.Usuario.Solicitacao;
+import Projeto.Passaporte.digital.Entity.Solicitacao;
 import Projeto.Passaporte.digital.Usuario.Usuario;
 import Projeto.Passaporte.digital.dto.Request.SolicitacaoRequest;
 import Projeto.Passaporte.digital.dto.Response.SolicitacaoResponse;
