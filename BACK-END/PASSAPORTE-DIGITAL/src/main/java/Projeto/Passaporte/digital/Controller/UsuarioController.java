@@ -1,9 +1,9 @@
     package Projeto.Passaporte.digital.Controller;
 
 
-    import Projeto.Passaporte.digital.Service.UsuarioService;
-    import Projeto.Passaporte.digital.dto.Request.UsuarioRequest;
-    import Projeto.Passaporte.digital.dto.Response.UsuarioResponse;
+    import Projeto.Passaporte.digital.Usuario.UsuarioService;
+    import Projeto.Passaporte.digital.Usuario.UsuarioRequest;
+    import Projeto.Passaporte.digital.Usuario.UsuarioResponse;
     import io.swagger.v3.oas.annotations.Operation;
     import io.swagger.v3.oas.annotations.Parameter;
     import io.swagger.v3.oas.annotations.media.ArraySchema;

@@ -1,6 +1,7 @@
 package Projeto.Passaporte.digital.Entity;
 
 
+import Projeto.Passaporte.digital.Usuario.Solicitacao;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

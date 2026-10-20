@@ -1,14 +1,10 @@
-package Projeto.Passaporte.digital.Service;
+package Projeto.Passaporte.digital.Usuario;
 
 
 import Projeto.Passaporte.digital.Entity.Perfil;
-import Projeto.Passaporte.digital.Entity.Usuario;
 import Projeto.Passaporte.digital.Execption.EmailJaCadastradoException;
-import Projeto.Passaporte.digital.Mapper.UsuarioMapper;
 import Projeto.Passaporte.digital.Repository.PerfilRepository;
 import Projeto.Passaporte.digital.Repository.UsuarioRepository;
-import Projeto.Passaporte.digital.dto.Request.UsuarioRequest;
-import Projeto.Passaporte.digital.dto.Response.UsuarioResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

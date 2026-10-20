@@ -1,6 +1,7 @@
-package Projeto.Passaporte.digital.Entity;
+package Projeto.Passaporte.digital.Usuario;
 
 
+import Projeto.Passaporte.digital.Entity.Maquina;
 import jakarta.persistence.*;
 import lombok.*;
 

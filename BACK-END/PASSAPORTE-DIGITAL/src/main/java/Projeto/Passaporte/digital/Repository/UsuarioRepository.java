@@ -1,6 +1,6 @@
 package Projeto.Passaporte.digital.Repository;
 
-import Projeto.Passaporte.digital.Entity.Usuario;
+import Projeto.Passaporte.digital.Usuario.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,9 +1,6 @@
-package Projeto.Passaporte.digital.Mapper;
+package Projeto.Passaporte.digital.Usuario;
 
 import Projeto.Passaporte.digital.Entity.Perfil;
-import Projeto.Passaporte.digital.Entity.Usuario;
-import Projeto.Passaporte.digital.dto.Request.UsuarioRequest;
-import Projeto.Passaporte.digital.dto.Response.UsuarioResponse;
 import org.springframework.stereotype.Component;
 
 @Component

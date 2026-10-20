@@ -1,4 +1,4 @@
-package Projeto.Passaporte.digital.dto.Request;
+package Projeto.Passaporte.digital.Usuario;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 
